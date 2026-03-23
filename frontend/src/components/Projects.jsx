@@ -6,12 +6,38 @@ import rps from "../../public/projects/rps.png"
 import qrcode from "../../public/projects/qr-code-generator.png"
 import weatherapp from "../../public/projects/weather-app.png"
 import gemini from "../../public/projects/gemini-clone.png"
-
+import AlgoVista from "../../public/projects/AlgoVista.png"
+import filo from "../../public/projects/filo.png"
+import wearforge from "../../public/projects/wearforge.png"
 
 
 const projectsData = [
+  {id: 1,
+    title: "FILO-file-sharing-and-cloud-storage-platform",
+    description: "file-sharing web application .",
+    image: AlgoVista,
+    category: "Website",
+    demoLink: "https://filo-file-sharing-and-cloud-storage.netlify.app/",
+    githubLink: "https://github.com/gaurav-acnt/FILO-file-sharing-and-cloud-storage-platform"
+  },
+    {id: 2,
+    title: "AlgoVista-Interactive-DSA-Visualizer",
+    description: "AlgoVista is an interactive web platform designed to help students and developers visualize the inner workings of popular Data Structures and Algorithms",
+    image: filo,
+    category: "Website",
+    demoLink: "https://algovista-interactive-dsa-visualizer.netlify.app/",
+    githubLink: "https://github.com/gaurav-acnt/AlgoVista-Interactive-DSA-Visualizer"
+  },
+  {id: 3,
+    title: "WearForge ",
+    description: "A full-stack custom clothing platform with a real-time 2D design editor, dynamic pricing",
+    image: wearforge,
+    category: "Website",
+    demoLink: "https://wearforge-custom-clothing.onrender.com",
+    githubLink: "https://github.com/gaurav-acnt/WearForge"
+  },
   {
-    id: 1,
+    id: 4,
     title: "Password Generator",
     description: "Generate strong and random passwords easily.",
     image: passwordgenerator,
@@ -20,7 +46,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/Password-Generator",
   },
   {
-    id: 2,
+    id: 5,
     title: "Tic-Tac-Toe",
     description: "Classic 2-player game implemented in JavaScript.",
     image: tictactoe,
@@ -29,7 +55,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/Tic-Tac-Toe",
   },
   {
-    id: 3,
+    id: 6,
     title: "Rock, Paper, Scissors",
     description: "Play the classic RPS game against the computer.",
     image: rps,
@@ -38,7 +64,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/Rock-Paper-Scissor",
   },
   {
-    id: 4,
+    id: 7,
     title: "QR Code Generator",
     description: "Generate QR codes for any text or URL.",
     image: qrcode,
@@ -47,7 +73,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/QR-code-generator",
   },
   {
-    id: 5,
+    id: 8,
     title: "Weather App",
     description: "Check weather forecast for any city.",
     image: weatherapp,
@@ -56,7 +82,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/Weather-App",
   },
   {
-    id: 6,
+    id: 9,
     title: "Gemini Clone",
     description: "A clone of Gemini website for practice.",
     image: gemini,
@@ -66,7 +92,7 @@ const projectsData = [
   },
 ];
 
-const filterOptions = ["All", "Frontend", "Games", "Website"];
+const filterOptions = ["All", "Frontend", "Games", "Website" ];
 
 const Projects = () => {
   const [selected, setSelected] = useState("All");
