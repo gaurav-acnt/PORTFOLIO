@@ -124,8 +124,9 @@ const ProfileCard = () => {
           </Link>
 
            <a
-            href="/Portfolio/gaurav_resume.pdf"
-            download="Gourav_Resume.pdf"
+            href="https://drive.google.com/uc?export=download&id=13RyrZ6Pue1B4I8TEWpipuzVWlnHrDCyj"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 my-1 bg-pink-500 text-white text-sm font-medium rounded-full hover:bg-pink-600 transition"
           >
             Download Resume 📄
