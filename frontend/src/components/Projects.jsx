@@ -15,15 +15,15 @@ const projectsData = [
   {id: 1,
     title: "FILO-file-sharing-and-cloud-storage-platform",
     description: "file-sharing web application .",
-    image: AlgoVista,
+    image: filo,
     category: "Website",
-    demoLink: "https://filo-file-sharing-and-cloud-storage.netlify.app/",
+    demoLink: "https://filo-file-sharing-and-cloud-storage-nine.vercel.app/",
     githubLink: "https://github.com/gaurav-acnt/FILO-file-sharing-and-cloud-storage-platform"
   },
     {id: 2,
     title: "AlgoVista-Interactive-DSA-Visualizer",
     description: "AlgoVista is an interactive web platform designed to help students and developers visualize the inner workings of popular Data Structures and Algorithms",
-    image: filo,
+    image: AlgoVista,
     category: "Website",
     demoLink: "https://algovista-interactive-dsa-visualizer.netlify.app/",
     githubLink: "https://github.com/gaurav-acnt/AlgoVista-Interactive-DSA-Visualizer"

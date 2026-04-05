@@ -12,7 +12,7 @@ const ProfileCard = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="bg-white rounded-[2rem] shadow-2xl overflow-hidden w-[320px] md:w-[380px] flex flex-col items-center text-center"
     >
-      {/* Top curved image section */}
+      
       <div className="relative w-full h-80 md:h-96 overflow-hidden">
         <motion.img
           src={profile}
@@ -21,13 +21,13 @@ const ProfileCard = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         />
-        {/* Gradient overlay curve */}
+      
         <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent rounded-t-[3rem]"></div>
       </div>
 
-      {/* Content */}
+      
       <div className="p-6">
-        {/* Name */}
+      
         <motion.h2
           className="text-2xl font-semibold text-gray-800"
           initial={{ opacity: 0 }}
@@ -37,7 +37,7 @@ const ProfileCard = () => {
           Gourav
         </motion.h2>
 
-        {/* Role */} 
+       
         <motion.p
           className="text-pink-500 mb-4 text-lg font-medium"
           initial={{ opacity: 0, x: 40 }}
@@ -57,7 +57,7 @@ const ProfileCard = () => {
           Backend Developer
         </motion.p>
 
-        {/* Social icons */}
+      
         <motion.div
           className="flex justify-center space-x-6 text-2xl text-gray-600 mb-6"
           initial="hidden"
@@ -97,7 +97,7 @@ const ProfileCard = () => {
           ))}
         </motion.div>
 
-        {/* Buttons */}
+       
         <motion.div
           className="flex flex-wrap justify-center gap-3"
           initial={{ opacity: 0 }}

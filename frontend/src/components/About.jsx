@@ -14,14 +14,14 @@ import { SiTailwindcss, SiExpress, SiMongodb, SiFigma, SiCanva } from "react-ico
 const About = () => {
   return (
     <div className="bg-gradient-to-br from-white to-pink-50 shadow-2xl rounded-3xl p-10 w-full md:w-[70%] mx-auto mt-10 border border-gray-100">
-      {/* Heading */}
+      
       <h2 className="text-4xl font-extrabold mb-6 text-gray-800 text-center">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-indigo-600">
           About Me
         </span>
       </h2>
 
-      {/* Main content */}
+      
       <p className="text-gray-700 text-lg leading-relaxed mb-4 text-center">
         👋 Hey there! I’m{" "}
         <span className="font-bold text-pink-600">Gourav </span>, a passionate{" "}
@@ -42,13 +42,13 @@ const About = () => {
         also make people’s lives easier and more enjoyable.
       </p>
 
-      {/* Skills Section */}
+      
       <h3 className="text-2xl font-bold text-gray-800 text-center mt-8 mb-4">
         Skills 🚀
       </h3>
 
       <div className="flex flex-wrap justify-center gap-4 mt-4">
-        {/* Frontend */}
+        
         <div className="flex items-center gap-2 bg-white shadow-md px-4 py-2 rounded-full border border-pink-100 hover:scale-105 transition-transform duration-200">
           <FaHtml5 className="text-orange-500 text-xl" />
           <span className="font-medium text-gray-700">HTML5</span>
@@ -79,7 +79,7 @@ const About = () => {
           <span className="font-medium text-gray-700">React</span>
         </div>
 
-        {/* Backend */}
+      
         <div className="flex items-center gap-2 bg-white shadow-md px-4 py-2 rounded-full border border-pink-100 hover:scale-105 transition-transform duration-200">
           <FaNodeJs className="text-green-600 text-xl" />
           <span className="font-medium text-gray-700">Node.js</span>
@@ -95,7 +95,7 @@ const About = () => {
           <span className="font-medium text-gray-700">MongoDB</span>
         </div>
 
-        {/* Tools */}
+        
         <div className="flex items-center gap-2 bg-white shadow-md px-4 py-2 rounded-full border border-pink-100 hover:scale-105 transition-transform duration-200">
           <FaGitAlt className="text-orange-600 text-xl" />
           <span className="font-medium text-gray-700">Git</span>
@@ -112,7 +112,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* Quote */}
+     
       <p className="text-center text-gray-500 mt-8 italic">
         “Turning ideas into smooth, interactive, and scalable web experiences.”
       </p>
