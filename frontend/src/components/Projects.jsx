@@ -9,6 +9,9 @@ import gemini from "../../public/projects/gemini-clone.png"
 import AlgoVista from "../../public/projects/AlgoVista.png"
 import filo from "../../public/projects/filo.png"
 import wearforge from "../../public/projects/wearforge.png"
+import Emotion-Classifier from "../../public/projects/Emotion-Classifier.png"
+import Mental-Health from "../../public/projects/Mental-Health.png"
+import House-Types from "../../public/projects/House-Types.png"
 
 
 const projectsData = [
@@ -20,7 +23,32 @@ const projectsData = [
     demoLink: "https://filo-file-sharing-and-cloud-storage-nine.vercel.app/",
     githubLink: "https://github.com/gaurav-acnt/FILO-file-sharing-and-cloud-storage-platform"
   },
-    {id: 2,
+   {id: 2,
+    title: "Emotion-Classifier",
+    description: "A Deep Learning and NLP project that classifies human emotions from text using sentiment analysis and neural networks.",
+    image: Emotion-Classifier,
+    category: "Website",
+    demoLink: "https://emotion-classifier-vp65.onrender.com",
+    githubLink: "https://github.com/gaurav-acnt/Emotion-Classifier"
+  },
+   {id: 3,
+    title: "Mental Health Score Predictor",
+    description: "machine learning project that predicts an individual's mental health score based on relevant lifestyle, behavioral, and personal factors.",
+    image: Mental-Health,
+    category: "Website",
+    demoLink: "https://mental-health-score-predictor-ui.onrender.com",
+    githubLink: "https://github.com/gaurav-acnt/Mental-Health-Score-Predictor"
+  },
+   {id: 4,
+    title: "Room Type Predictor",
+    description: "A machine learning project that classifies NYC Airbnb listings into different room types based on features such as location, price, minimum nights, reviews, availability, and neighborhood information.",
+    image: House-Types,
+    category: "Website",
+    demoLink: "https://classifying-nyc-house-types-1-c9ek.onrender.com",
+    githubLink: "https://github.com/gaurav-acnt/Classifying-NYC-House-Types"
+  },
+
+    {id: 5,
     title: "AlgoVista-Interactive-DSA-Visualizer",
     description: "AlgoVista is an interactive web platform designed to help students and developers visualize the inner workings of popular Data Structures and Algorithms",
     image: AlgoVista,
@@ -28,7 +56,7 @@ const projectsData = [
     demoLink: "https://algovista-interactive-dsa-visualizer.netlify.app/",
     githubLink: "https://github.com/gaurav-acnt/AlgoVista-Interactive-DSA-Visualizer"
   },
-  {id: 3,
+  {id: 6,
     title: "WearForge ",
     description: "A full-stack custom clothing platform with a real-time 2D design editor, dynamic pricing",
     image: wearforge,
@@ -37,7 +65,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/WearForge"
   },
   {
-    id: 4,
+    id: 7,
     title: "Password Generator",
     description: "Generate strong and random passwords easily.",
     image: passwordgenerator,
@@ -46,7 +74,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/Password-Generator",
   },
   {
-    id: 5,
+    id: 8,
     title: "Tic-Tac-Toe",
     description: "Classic 2-player game implemented in JavaScript.",
     image: tictactoe,
@@ -55,7 +83,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/Tic-Tac-Toe",
   },
   {
-    id: 6,
+    id: 9,
     title: "Rock, Paper, Scissors",
     description: "Play the classic RPS game against the computer.",
     image: rps,
@@ -64,7 +92,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/Rock-Paper-Scissor",
   },
   {
-    id: 7,
+    id: 10,
     title: "QR Code Generator",
     description: "Generate QR codes for any text or URL.",
     image: qrcode,
@@ -73,7 +101,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/QR-code-generator",
   },
   {
-    id: 8,
+    id: 11,
     title: "Weather App",
     description: "Check weather forecast for any city.",
     image: weatherapp,
@@ -82,7 +110,7 @@ const projectsData = [
     githubLink: "https://github.com/gaurav-acnt/Weather-App",
   },
   {
-    id: 9,
+    id: 12,
     title: "Gemini Clone",
     description: "A clone of Gemini website for practice.",
     image: gemini,
