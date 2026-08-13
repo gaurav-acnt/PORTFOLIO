@@ -9,9 +9,9 @@ import gemini from "../../public/projects/gemini-clone.png"
 import AlgoVista from "../../public/projects/AlgoVista.png"
 import filo from "../../public/projects/filo.png"
 import wearforge from "../../public/projects/wearforge.png"
-import Emotion-Classifier from "../../public/projects/Emotion-Classifier.png"
-import Mental-Health from "../../public/projects/Mental-Health.png"
-import House-Types from "../../public/projects/House-Types.png"
+import emotionClassifier from "../../public/projects/Emotion-Classifier.png"
+import mentalHealth from "../../public/projects/Mental-Health.png"
+import houseTypes from "../../public/projects/House-Types.png"
 
 
 const projectsData = [
@@ -26,7 +26,7 @@ const projectsData = [
    {id: 2,
     title: "Emotion-Classifier",
     description: "A Deep Learning and NLP project that classifies human emotions from text using sentiment analysis and neural networks.",
-    image: Emotion-Classifier,
+    image: emotionClassifier,
     category: "Website",
     demoLink: "https://emotion-classifier-vp65.onrender.com",
     githubLink: "https://github.com/gaurav-acnt/Emotion-Classifier"
@@ -34,7 +34,7 @@ const projectsData = [
    {id: 3,
     title: "Mental Health Score Predictor",
     description: "machine learning project that predicts an individual's mental health score based on relevant lifestyle, behavioral, and personal factors.",
-    image: Mental-Health,
+    image: mentalHealth,
     category: "Website",
     demoLink: "https://mental-health-score-predictor-ui.onrender.com",
     githubLink: "https://github.com/gaurav-acnt/Mental-Health-Score-Predictor"
@@ -42,7 +42,7 @@ const projectsData = [
    {id: 4,
     title: "Room Type Predictor",
     description: "A machine learning project that classifies NYC Airbnb listings into different room types based on features such as location, price, minimum nights, reviews, availability, and neighborhood information.",
-    image: House-Types,
+    image: houseTypes,
     category: "Website",
     demoLink: "https://classifying-nyc-house-types-1-c9ek.onrender.com",
     githubLink: "https://github.com/gaurav-acnt/Classifying-NYC-House-Types"
