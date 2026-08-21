@@ -71,7 +71,7 @@ const Contact = () => {
 
             <p>
               <a
-                href="https://www.linkedin.com/in/gaurav-jangra-b15764219/"
+                href="https://www.linkedin.com/in/gaurav-jangra1/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-pink-400"
