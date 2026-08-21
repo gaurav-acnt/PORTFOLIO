@@ -76,7 +76,7 @@ const ProfileCard = () => {
             { icon: <FaGithub />, link: "https://github.com/gaurav-acnt" },
             {
               icon: <FaLinkedin />,
-              link: "https://www.linkedin.com/in/gaurav-jangra-b15764219/",
+              link: "https://www.linkedin.com/in/gaurav-jangra1/",
             },
             {
               icon: <FaInstagram />,
@@ -124,7 +124,7 @@ const ProfileCard = () => {
           </Link>
 
            <a
-            href="https://drive.google.com/uc?export=download&id=13RyrZ6Pue1B4I8TEWpipuzVWlnHrDCyj"
+            href="https://drive.google.com/file/d/1_Vm9qh86P7alW0hxhsENiJ8dAoy46fNz/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 my-1 bg-pink-500 text-white text-sm font-medium rounded-full hover:bg-pink-600 transition"
