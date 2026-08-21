@@ -54,7 +54,7 @@ const ProfileCard = () => {
             ease: "easeInOut",
           }}
         >
-          Backend Developer
+          Data Science Engineer
         </motion.p>
 
       
